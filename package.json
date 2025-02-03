@@ -1,0 +1,24 @@
+{
+  "name": "chat-en-vivo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch server/index.js",
+    "build": "tsc",
+    "lint": "eslint.",
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chat-en-vivo": "file:",
+    "express": "4.21.2",
+    "morgan": "1.10.0",
+    "socket.io": "4.8.1"
+  }
+}
